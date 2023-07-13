@@ -1,0 +1,26 @@
+.Full {
+    margin-top: 3em;
+}
+
+.change-picture {
+    margin: 0 auto;
+    width: 20em;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    margin: 0 auto;
+    height: 15em;
+    width: 15em;
+}
+
+.change-btn {
+    margin: 0 auto;
+    height: 3em;
+    width: 20em;
+    border-radius: 50px;
+    background-color: orange;
+    color: white;
+    cursor: pointer;
+}

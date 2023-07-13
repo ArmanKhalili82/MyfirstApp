@@ -18,7 +18,7 @@ export default function FullWidthGrid() {
   return (
     <Box sx={{ flexGrow: 1, marginTop: 55 }}>
       <Grid container spacing={2}>
-        <Grid xs={6} md={8}>
+        <Grid xs={12} md={8}>
           <Item><img src={Pic1}></img>
             <Typography variant='h5'>What is Wood Work?</Typography>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed lectus vestibulum mattis ullamcorper. Id aliquet lectus proin nibh. Dignissim diam quis enim lobortis scelerisque. Adipiscing commodo elit at imperdiet dui. Nunc sed augue lacus viverra vitae congue eu consequat. Magna eget est lorem ipsum dolor sit. Facilisis volutpat est velit egestas. Ac turpis egestas sed tempus urna et pharetra pharetra massa. Convallis aenean et tortor at risus viverra adipiscing at. Eros in cursus turpis massa tincidunt dui ut. Odio facilisis mauris sit amet.
@@ -43,7 +43,7 @@ export default function FullWidthGrid() {
                 <Button sx={{borderRadius: 50, backgroundColor:'orange'}} variant='contained'>Read More</Button>
           </Item>
         </Grid>
-        <Grid xs={6} md={4}>
+        <Grid xs={12} md={4}>
           <Item sx={{backgroundColor: "orange"}}>
             <div style={{border: "1px solid black"}} className='sidebar'><h3>Lorem ipsum dolor sit</h3></div>
             <div style={{border: "1px solid black"}} className='sidebar'><h3>Lorem ipsum dolor sit</h3></div>

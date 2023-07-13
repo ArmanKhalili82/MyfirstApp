@@ -1,0 +1,32 @@
+import React, {useState} from 'react'
+import './ChangePicture.css'
+import Image1 from '../../images/IMG_8.jpg'
+import Image2 from '../../images/IMG_7.jpg'
+
+const Pictures = [ Image1, Image2 ]
+    
+
+const ChangePicture = () => {
+    const [picture, setPicture] = useState(Pictures[0]);
+
+    const ChangeHandler = () => {
+        if (picture === Image1) {
+            setPicture(Image2)
+        }
+
+        else {
+            setPicture(Image1)
+        }
+    } 
+
+  return (
+    <div className='Full'>
+        <div className='change-picture'>
+            <img src={picture} />
+            <button onClick={ChangeHandler} className='change-btn'>Change Picture</button>
+        </div>
+    </div>
+  )
+}
+
+export default ChangePicture
