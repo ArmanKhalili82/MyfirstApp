@@ -21,9 +21,9 @@ const ChangePicture = () => {
 
   return (
     <div className='Full'>
-        <div className='change-picture'>
+        <div id={ picture == Image1? "I1": "I2"} className='change-picture'>
             <img src={picture} />
-            <button onClick={ChangeHandler} className='change-btn'>Change Picture</button>
+            <button  onClick={ChangeHandler} className='change-btn'>Change Picture</button>
         </div>
     </div>
   )
