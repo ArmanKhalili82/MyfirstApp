@@ -5,7 +5,7 @@ import Image2 from '../../images/IMG_7.jpg'
 
 
 async function Changes() {
-    const response = await fetch("https://64bd65862320b36433c7af6d.mockapi.io/sites");
+    const response = await fetch("htto://localhost:8080");
     const Change = await response.json();
     console.log(Changes);
     console.log('This should happen');
