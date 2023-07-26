@@ -3,11 +3,7 @@ import { render, screen, act, waitFor } from "@testing-library/react"
 import userEvent from "@testing-library/user-event"
 import ChangePicture from "./ChangePicture"
 
-async function Changes() {
-  const response = await fetch("https://64bd65862320b36433c7af6d.mockapi.io/sites");
-  const Change = await response.json();
-  console.log(Changes);
-}
+
 
 
 

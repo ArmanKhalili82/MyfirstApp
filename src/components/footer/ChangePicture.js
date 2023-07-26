@@ -3,6 +3,13 @@ import './ChangePicture.css'
 import Image1 from '../../images/IMG_8.jpg'
 import Image2 from '../../images/IMG_7.jpg'
 
+
+async function Changes() {
+    const response = await fetch("https://64bd65862320b36433c7af6d.mockapi.io/sites");
+    const Change = await response.json();
+    console.log(Changes);
+  }
+
 const Pictures = [Image1, Image2]
 
 
