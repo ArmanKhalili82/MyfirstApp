@@ -4,10 +4,6 @@ import Image1 from '../../images/IMG_8.jpg'
 import Image2 from '../../images/IMG_7.jpg'
 
 
-const Changes = async() => {
-    
-  }
-
 const Pictures = [Image1, Image2]
 
 
