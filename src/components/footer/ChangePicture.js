@@ -5,10 +5,7 @@ import Image2 from '../../images/IMG_7.jpg'
 
 
 const Changes = async() => {
-    const response = await fetch("http://localhost:8080");
-    const Change = await response.json();
-    console.log(Changes);
-    console.log('This should happen');
+    
   }
 
 const Pictures = [Image1, Image2]
@@ -17,7 +14,14 @@ const Pictures = [Image1, Image2]
 const ChangePicture = () => {
     const [picture, setPicture] = useState(Image1);
 
-    const ChangeHandler = () => {
+    const ChangeHandler = async() => {
+
+        const response = await fetch("http://localhost:8080");
+        const Change = await response.json();
+        console.log(Change);
+        console.log('This should happen');
+
+
         if (picture === Image1) {
             setPicture(Image2)
         }
