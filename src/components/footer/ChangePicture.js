@@ -32,7 +32,7 @@ const ChangePicture = () => {
         const response = await fetch("http://localhost:8080");
         const info = await response.json();
         console.log(info);
-        setInformation(info);
+        setInformation(info.name, info.family, info.age);
     }
 
     return (
