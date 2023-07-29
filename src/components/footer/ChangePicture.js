@@ -43,7 +43,7 @@ const ChangePicture = () => {
             </div>
             <div>
                 <button onClick={InformationHandler}>Show Me</button>
-                <div className={information}></div>
+                <div>{information}</div>
             </div>
         </div>
     )
